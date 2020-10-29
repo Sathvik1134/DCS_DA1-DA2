@@ -23,7 +23,7 @@ c = y0;
 t = roots([a, b, c]);
 tmax = max(t); % choosing the maximum time
 
-hFig2 = figure();
+figure(1);
 
 t = linspace(0, tmax,100); %generates 100 values between 0 and tmax.
 
